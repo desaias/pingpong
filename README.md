@@ -6,5 +6,5 @@ npm install && npm link
 ```
 
 ```$
-pingpong --score 10-3 --winner dave --loser dave
+pingpong --score 10-3 --winner norm --loser phil
 ```
