@@ -12,7 +12,7 @@ var opts = require('minimist')(process.argv.slice(2), {
 });
 
 if (_.isEmpty(opts.score) || _.isEmpty(opts.winner) || _.isEmpty(opts.loser)) {
-    console.log('oops');
+    console.log('You must enter the score, winner and loser.  --score (-s) {10-8} --winner (-w) {name} --loser (-l) {name}');
 } else {
     // Save Game
     fs.readFile('./pingpong/games', 'utf8', function(err, data) {
