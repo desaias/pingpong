@@ -1,0 +1,15 @@
+{
+  "name": "pingpong",
+  "version": "0.0.1",
+  "description": "A command line utility for keeping track of your ping pong games",
+  "bin": {
+    "pingpong": "pingpong.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "minimist": "^1.2.0",
+    "moment": "^2.10.6"
+  }
+}
